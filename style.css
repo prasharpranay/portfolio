@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  /* Home Section */
+  #home {
+      background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63489.jpg?size=626&ext=jpg&ga=GA1.2.1721042703.1687640632&semt=ais');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+    
+  .profile {
+    text-align: center;
+  }
+  
+  .profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+  }
+  
+  .skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .skills-list li {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 80px 0;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  .project h3 {
+    color: #333;
+  }
+  
+  .project p {
+    color: #777;
+  }
+  
+  /* Contact Section */
+  #contact {
+    background-color: #555;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
